@@ -1,13 +1,13 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://hpspace.github.io/"
 languageCode = "en-us"
-title = "Strata"
-theme = "hugo-strata-theme"
+title = "The Highland Park Space Company"
+theme = "strata"
 
 [params]
 	# To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
-	name = "Your name"
-	description = "Describe your website"
+  # information about you and your website.
+	name = "The Highland Park Space Company"
+	description = "The Highland Park Space Company"
 
 	# Enable Google Analytics by inserting your tracking code
 	googleAnalytics = ""
@@ -30,13 +30,13 @@ theme = "hugo-strata-theme"
 		]
 
 
-	[params.about]
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+  [params.about]
+    title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
+    content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
 
 
 	[params.portfolio]
-		title = "Recent Work"
+    title = "Recent Work"
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
@@ -78,7 +78,7 @@ theme = "hugo-strata-theme"
 
 
 	[params.contact]
-		title = "Get In Touch"
+    title = "Get In Touch"
 		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
 
 		address = [

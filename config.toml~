@@ -1,3 +1,98 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://hpspace.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "The Highland Park Space Company"
+theme = "creative"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "The Highland Park Space Company"
+	description = "A space and science consulting firm for creatives"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "The Highland Park Space Co."
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "A creative solution for your space ideas"
+		subtitle   = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "We've got what you need!"
+		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "Get started!"
+
+
+	# Service section
+  # Use font icons at http://fortawesome.github.io/Font-Awesome/icons/
+	[params.services]
+		headline = "At your service"
+
+    [[params.services.list]]
+      icon = "fa-pencil-square-o"
+      title = "Script/Media Ideas"
+      description = "Whether a full re-write or a few jargon suggestions, we can work with you on your technical lingo."
+
+    [[params.services.list]]
+      icon = "fa-lightbulb-o"
+      title = "Brainstorming Session"
+      description = "Bring us into your office for a more personal, one-on-one ideation and brainstorming session."
+
+    [[params.services.list]]
+      icon = "fa-newspaper-o"
+      title = "Up to Date"
+      description = "Sign up for ours newsletter to learn about new happenings in space and science fiction."
+
+    [[params.services.list]]
+      icon = "smile-o"
+      title = "Friendly People"
+      description = "We're just your friendly neighborhood space company!"
+
+
+  # Portfolio modals
+	[params.portfolio.modal]
+    client = "Client"
+    date = "Date"
+    category = "Category"
+    buttonText = "Close"
+
+  # Aside section
+	[params.aside]
+    headline = "Get the Creative Theme for Hugo"
+
+  [params.aside.button]
+    text = "Download now"
+    link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Get In Touch With Us!"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		phone = "949-682-5469"
+		email = "contact@hpspace.co"

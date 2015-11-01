@@ -18,7 +18,7 @@ theme = "strata"
 		avatar = "avatar.jpg"
 
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**We are the Highland Park Space Co.**, your <br>neighborhood space consulting firm<br> with an emphasis on creative solutions."
+		bio = "**We are hpspace.co**, your <br>neighborhood space consulting firm<br> with an emphasis on creative solutions."
 		
 # The icons will be shown if you enter your username
 		twitter = "hpspaceco"
@@ -33,8 +33,8 @@ theme = "strata"
 
 
   [params.about]
-    title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-    content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+    title = "Welcome to the **Highland Park Space Company**, your first neighborhood space company."
+    content = "Here at hpspace.co, we deliver creative solutions for your space and science ideas. Have a crazy space idea? We turn the ridiculous into reality."
 
 
 	[params.portfolio]

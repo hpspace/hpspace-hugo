@@ -18,7 +18,7 @@ theme = "creative"
 	# For more informtion take a look at the README.
 
 	# To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
+  # information about you and your website.
 	name = "The Highland Park Space Company"
 	description = "A space and science consulting firm for creatives"
 
@@ -38,21 +38,21 @@ theme = "creative"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "A creative solution for your space ideas"
-		subtitle   = "The Highland Park Space Company provides personalized, creative solutions for imagining difficult or complex scientific concepts in the realm of space technology and science fiction."
+		subtitle   = "**The Highland Park Space Company** provides personalized, creative solutions for imagining difficult or complex scientific concepts in the realm of space technology and science fiction."
 		buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
 		headline    = "We've got what you need!"
-		description = "Bridging the gap between fiction and reality requires an expertise that only space technologists have. The HP Space Co. provides a personalized scientific and space technology consulting experience, working directly with you and your team on your difficult concepts."
+		description = "Bridging the gap between fiction and reality requires an expertise that only space technologists have. **HPSpaceCo** provides a personalized scientific and space technology consulting experience, working directly with you and your team on your difficult concepts."
 		buttonText  = "Get started!"
 
 
 	# Service section
   # Use font icons at http://fortawesome.github.io/Font-Awesome/icons/
 	[params.services]
-		headline = "At your service"
+		headline = "We're at your service!"
 
     [[params.services.list]]
       icon = "fa-pencil-square-o"
@@ -76,6 +76,9 @@ theme = "creative"
 
 
   # Portfolio modals
+	[params.portfolio]
+    headline = "Here's some fun stuff we've worked on!"
+
 	[params.portfolio.modal]
     client = "Client"
     date = "Date"

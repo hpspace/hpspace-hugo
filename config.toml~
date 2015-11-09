@@ -52,7 +52,7 @@ theme = "creative"
 	# Service section
   # Use font icons at http://fortawesome.github.io/Font-Awesome/icons/
 	[params.services]
-		headline = "At your service:"
+		headline = "We're at your service!"
 
     [[params.services.list]]
       icon = "fa-pencil-square-o"
@@ -77,7 +77,7 @@ theme = "creative"
 
   # Portfolio modals
 	[params.portfolio]
-    headline = "What we've done:"
+    headline = "Here's some fun stuff we've worked on!"
 
 	[params.portfolio.modal]
     client = "Client"

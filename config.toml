@@ -22,6 +22,8 @@ theme = "creative"
 	name = "The Highland Park Space Company"
 	description = "A space and science consulting firm for creatives"
 
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
 
 	# Navigation
 	[params.navigation]

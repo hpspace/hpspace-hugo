@@ -38,7 +38,7 @@ theme = "creative"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "A creative solution for your space ideas"
-		subtitle   = "**The Highland Park Space Company** provides personalized, creative solutions for imagining difficult or complex scientific concepts in the realm of space technology and science fiction."
+		subtitle   = "**The Highland Park Space Company** is a scientific consulting firm for entertainment and production industries, providing creative solutions for imagining complex scientific concepts in space technology and science fiction."
 		buttonText = "Find out more"
 
 
